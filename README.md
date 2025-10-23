@@ -67,7 +67,7 @@ You need to have [Node.js](https://nodejs.org/) (v18 or later) and [npm](https:/
 While the AI features in this demo are mocked on the frontend for demonstration purposes, a real-world implementation would involve:
 
 1.  **Backend Service**: A secure backend (e.g., Node.js with Express, or Python with FastAPI) that connects to the user's data sources.
-2.  **LLM Integration**: The backend service would make API calls to a Large Language Model (like Google's Gemini or OpenAI's GPT-4).
+2.  **LLM Integration**: The backend service would make API calls to a Large Language Model 
 3.  **Data Analysis**: For insights and anomaly detection, relevant data is passed to the LLM with a carefully crafted prompt asking it to analyze the data and return a summary or identify deviations.
 4.  **Natural Language to SQL**: For the "Ask your Data" feature, the user's question is sent to the LLM, which is prompted to convert the natural language query into a valid SQL query. This SQL is then run against the user's database, and the results are returned to the user.
 
