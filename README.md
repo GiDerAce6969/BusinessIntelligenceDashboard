@@ -40,9 +40,7 @@ You need to have [Node.js](https://nodejs.org/) (v18 or later) and [npm](https:/
 2.  **Install dependencies:**
     This project uses several libraries for charts, icons, and styling.
     ```bash
-    npm install
-    # or
-    yarn install
+npm install recharts lucide-react clsx tailwind-merge
     ```
 
 3.  **Run the development server:**
